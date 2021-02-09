@@ -1,0 +1,79 @@
+/* Name: Ashton Hash
+  Date: 2/10/2021
+  fileName: styles.css
+  ProjectName: Fit for Fun */
+html {
+  background-color: DarkSlateGrey;
+}
+
+body {
+  display: block;
+  background-color: DodgerBlue;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1020px;
+	min-width: 640px;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  width: 100%;
+
+}
+
+/* Lists Layout */
+table {
+  background-color: AliceBlue;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 1020px;
+  min-width: 640px;
+  text-align: center;
+}
+
+table tr td, th {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-collapse: collapse;
+  padding: 0px;
+  width: 15%;
+}
+
+table tr th {
+  background-color: lavender;
+  border: 2px solid black;
+}
+
+table tr td {
+
+}
+
+.Special {
+  border-left: 5px solid gold;
+}
+
+.Same {
+  border-left: 5px solid blue;
+}
+
+#Different {
+  border-left: 5px solid indigo;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+h6 {
+  font-weight: lighter;
+  font-size: .75em;
+}
+
+table p {
+  font-weight: lighter;
+  font-size: .65em;
+  font-style: italic;
+}
